@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         posToGo = transform.position;
+        rotation = transform.rotation;
     }
 
     // Update is called once per frame
